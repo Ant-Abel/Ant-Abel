@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Abel&#39;s Blog</title>
+  
+  <subtitle>找一个蚁群，做只蚂蚁</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.ant-abel.com/"/>
+  <updated>2018-08-02T09:54:46.837Z</updated>
+  <id>https://blog.ant-abel.com/</id>
+  
+  <author>
+    <name>Abel Zhang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VSCode Prettier ESLint 打造JavaScript开发利器</title>
+    <link href="https://blog.ant-abel.com/2018/08/02/vscode-prettier-eslint/"/>
+    <id>https://blog.ant-abel.com/2018/08/02/vscode-prettier-eslint/</id>
+    <published>2018-08-02T08:30:07.000Z</published>
+    <updated>2018-08-02T09:54:46.837Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Terms&quot;&gt;&lt;a href=&quot;#Terms&quot; class=&quot;headerlink&quot; title=&quot;Terms&quot;&gt;&lt;/a&gt;Terms&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;VSCode 全称&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
+    
+    
+      <category term="vscode" scheme="https://blog.ant-abel.com/tags/vscode/"/>
+    
+      <category term="prettier" scheme="https://blog.ant-abel.com/tags/prettier/"/>
+    
+      <category term="eslint" scheme="https://blog.ant-abel.com/tags/eslint/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VSCode Snippet</title>
+    <link href="https://blog.ant-abel.com/2018/08/02/vscode-snippet/"/>
+    <id>https://blog.ant-abel.com/2018/08/02/vscode-snippet/</id>
+    <published>2018-08-02T02:26:53.000Z</published>
+    <updated>2018-08-02T02:31:12.928Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;VSCode-Snippet&quot;&gt;&lt;a href=&quot;#VSCode-Snippet&quot; class=&quot;headerlink&quot; title=&quot;VSCode Snippet&quot;&gt;&lt;/a&gt;VSCode
+        
+      
+    
+    </summary>
+    
+      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
+    
+    
+      <category term="guide" scheme="https://blog.ant-abel.com/tags/guide/"/>
+    
+      <category term="vscode" scheme="https://blog.ant-abel.com/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VSCode Keyboard Shortcuts Mac</title>
+    <link href="https://blog.ant-abel.com/2018/08/02/vscode-keyboard-shortcut/"/>
+    <id>https://blog.ant-abel.com/2018/08/02/vscode-keyboard-shortcut/</id>
+    <published>2018-08-02T02:17:49.000Z</published>
+    <updated>2018-08-02T02:19:00.520Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;全局&quot;&gt;&lt;a href=&quot;#全局&quot; class=&quot;headerlink&quot; title=&quot;全局&quot;&gt;&lt;/a&gt;全局&lt;/h2&gt;&lt;p&gt;&lt;em&gt;Command + Shift + P / F1 显示命令面板.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Command + P
+        
+      
+    
+    </summary>
+    
+      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
+    
+    
+      <category term="vscode" scheme="https://blog.ant-abel.com/tags/vscode/"/>
+    
+      <category term="shortcut" scheme="https://blog.ant-abel.com/tags/shortcut/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown Cookbook（Markdwon简明语法手册）</title>
+    <link href="https://blog.ant-abel.com/2018/08/01/markdown-cookbook/"/>
+    <id>https://blog.ant-abel.com/2018/08/01/markdown-cookbook/</id>
+    <published>2018-08-01T06:07:46.000Z</published>
+    <updated>2018-08-02T01:51:58.470Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Markdown&quot;&gt;&lt;a href=&quot;#Markdown&quot; class=&quot;headerlink&quot; title=&quot;Markdown?&quot;&gt;&lt;/a&gt;Markdown?&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;Markdown is a text-to-HTML
+        
+      
+    
+    </summary>
+    
+      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
+    
+    
+      <category term="cookbook" scheme="https://blog.ant-abel.com/tags/cookbook/"/>
+    
+      <category term="markdown" scheme="https://blog.ant-abel.com/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VSCode Extension Settings-Sync(VSCode设置同步)</title>
+    <link href="https://blog.ant-abel.com/2018/07/31/vsocde-ext-settings-sync/"/>
+    <id>https://blog.ant-abel.com/2018/07/31/vsocde-ext-settings-sync/</id>
+    <published>2018-07-31T03:22:27.000Z</published>
+    <updated>2018-08-02T01:51:23.442Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;团队合作中，你肯定想让每个人开发环境设置是一样的，起码基础设置是一样的。&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
+    
+    
+      <category term="guide" scheme="https://blog.ant-abel.com/tags/guide/"/>
+    
+      <category term="vscode" scheme="https://blog.ant-abel.com/tags/vscode/"/>
+    
+      <category term="sync" scheme="https://blog.ant-abel.com/tags/sync/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo引用站内文章</title>
+    <link href="https://blog.ant-abel.com/2018/07/31/hexo-tip-post-link/"/>
+    <id>https://blog.ant-abel.com/2018/07/31/hexo-tip-post-link/</id>
+    <published>2018-07-31T02:22:53.000Z</published>
+    <updated>2018-08-02T01:46:23.512Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="术(Solution)" scheme="https://blog.ant-abel.com/categories/solution/"/>
+    
+    
+      <category term="hexo" scheme="https://blog.ant-abel.com/tags/hexo/"/>
+    
+      <category term="tips" scheme="https://blog.ant-abel.com/tags/tips/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VSCode Markdown Editor（VSCode打造好用的Markdown编辑器）</title>
+    <link href="https://blog.ant-abel.com/2018/07/30/vsocde-md/"/>
+    <id>https://blog.ant-abel.com/2018/07/30/vsocde-md/</id>
+    <published>2018-07-30T10:45:44.000Z</published>
+    <updated>2018-08-02T01:53:06.307Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;打造足够好用的 Markdown 编辑器，VSCode 的易用性就不用说了，再加上好用的 Extensions 插件，简直完美。&lt;/p&gt;
+&lt;h2 id=&quot;VSCode&quot;&gt;&lt;a href=&quot;#VSCode&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
+    
+    
+      <category term="guide" scheme="https://blog.ant-abel.com/tags/guide/"/>
+    
+      <category term="markdown" scheme="https://blog.ant-abel.com/tags/markdown/"/>
+    
+      <category term="vscode" scheme="https://blog.ant-abel.com/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Visual Studio Code(VSCode) Basic</title>
+    <link href="https://blog.ant-abel.com/2018/07/30/vscode/"/>
+    <id>https://blog.ant-abel.com/2018/07/30/vscode/</id>
+    <published>2018-07-30T10:01:37.000Z</published>
+    <updated>2018-08-02T01:51:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;体验了 Atom 和 Sublime，做为轻量级文本编辑器，个人还是比较喜欢 VS Code。如下内容足够你了解 VS Code，让轻轻松松上路。&lt;/p&gt;
+&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
+    
+    
+      <category term="guide" scheme="https://blog.ant-abel.com/tags/guide/"/>
+    
+      <category term="vscode" scheme="https://blog.ant-abel.com/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo写作Cookbook</title>
+    <link href="https://blog.ant-abel.com/2018/07/27/hexo-writting-cookbook/"/>
+    <id>https://blog.ant-abel.com/2018/07/27/hexo-writting-cookbook/</id>
+    <published>2018-07-27T10:27:31.000Z</published>
+    <updated>2018-08-02T01:51:08.088Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;此博文做为 Hexo 写作的 Cookbook，记录写作中常用内容，方便参考引用。&lt;/p&gt;
+&lt;h2 id=&quot;命令&quot;&gt;&lt;a href=&quot;#命令&quot; class=&quot;headerlink&quot; title=&quot;命令&quot;&gt;&lt;/a&gt;命令&lt;/h2&gt;&lt;h3
+        
+      
+    
+    </summary>
+    
+      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
+    
+    
+      <category term="hexo" scheme="https://blog.ant-abel.com/tags/hexo/"/>
+    
+      <category term="cookbook" scheme="https://blog.ant-abel.com/tags/cookbook/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo Guide 新手知识</title>
+    <link href="https://blog.ant-abel.com/2018/07/27/hexo-guide/"/>
+    <id>https://blog.ant-abel.com/2018/07/27/hexo-guide/</id>
+    <published>2018-07-27T10:26:27.000Z</published>
+    <updated>2018-08-02T01:50:53.631Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;具体怎么通过 Hexo 搭建个人博客，已经有很多很好的博文了。此文专注记录用 Hexo 写博文过程中遇到的问题和 tips。将持续更新！&lt;/p&gt;
+&lt;h2 id=&quot;Hexo-初解&quot;&gt;&lt;a href=&quot;#Hexo-初解&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
+    
+    
+      <category term="hexo" scheme="https://blog.ant-abel.com/tags/hexo/"/>
+    
+      <category term="guide" scheme="https://blog.ant-abel.com/tags/guide/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://blog.ant-abel.com/2018/07/25/hello-world/"/>
+    <id>https://blog.ant-abel.com/2018/07/25/hello-world/</id>
+    <published>2018-07-25T02:10:10.000Z</published>
+    <updated>2018-08-02T01:16:25.643Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://blog.ant-abel.com/&quot;&gt;Abel’s Blog&lt;/a&gt;! As a developer, we are always using “Hello World” as a
+        
+      
+    
+    </summary>
+    
+      <category term="悟(Tattle)" scheme="https://blog.ant-abel.com/categories/tattle/"/>
+    
+    
+      <category term="ant" scheme="https://blog.ant-abel.com/tags/ant/"/>
+    
+      <category term="较真儿" scheme="https://blog.ant-abel.com/tags/%E8%BE%83%E7%9C%9F%E5%84%BF/"/>
+    
+  </entry>
+  
+</feed>
