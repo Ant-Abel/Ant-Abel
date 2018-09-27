@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ant-abel.com/"/>
-  <updated>2018-08-02T09:54:46.837Z</updated>
+  <updated>2018-09-26T10:00:33.003Z</updated>
   <id>https://blog.ant-abel.com/</id>
   
   <author>
@@ -15,6 +15,93 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Docker</title>
+    <link href="https://blog.ant-abel.com/2018/09/21/docker/"/>
+    <id>https://blog.ant-abel.com/2018/09/21/docker/</id>
+    <published>2018-09-21T01:25:32.000Z</published>
+    <updated>2018-09-26T10:00:33.003Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Docker&quot;&gt;&lt;a href=&quot;#Docker&quot; class=&quot;headerlink&quot; title=&quot;Docker&quot;&gt;&lt;/a&gt;Docker&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;../uploads/2018-09-21-11-11-06.png&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技(Skill)" scheme="https://blog.ant-abel.com/categories/skill/"/>
+    
+      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/skill/tool/"/>
+    
+    
+      <category term="docker" scheme="https://blog.ant-abel.com/tags/docker/"/>
+    
+      <category term="cookbook" scheme="https://blog.ant-abel.com/tags/cookbook/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>grunt</title>
+    <link href="https://blog.ant-abel.com/2018/08/17/grunt/"/>
+    <id>https://blog.ant-abel.com/2018/08/17/grunt/</id>
+    <published>2018-08-17T07:33:57.000Z</published>
+    <updated>2018-08-17T10:46:17.076Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Grunt-介绍&quot;&gt;&lt;a href=&quot;#Grunt-介绍&quot; class=&quot;headerlink&quot; title=&quot;Grunt 介绍&quot;&gt;&lt;/a&gt;Grunt 介绍&lt;/h2&gt;&lt;p&gt;grunt 是一个基于 nodejs 的 task
+        
+      
+    
+    </summary>
+    
+      <category term="技(Skill)" scheme="https://blog.ant-abel.com/categories/skill/"/>
+    
+    
+      <category term="grunt" scheme="https://blog.ant-abel.com/tags/grunt/"/>
+    
+      <category term="task runner" scheme="https://blog.ant-abel.com/tags/task-runner/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nodejs-script</title>
+    <link href="https://blog.ant-abel.com/2018/08/07/nodejs-script/"/>
+    <id>https://blog.ant-abel.com/2018/08/07/nodejs-script/</id>
+    <published>2018-08-07T08:12:00.000Z</published>
+    <updated>2018-08-07T09:03:41.023Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;可执行脚本&quot;&gt;&lt;a href=&quot;#可执行脚本&quot; class=&quot;headerlink&quot; title=&quot;可执行脚本&quot;&gt;&lt;/a&gt;可执行脚本&lt;/h2&gt;&lt;p&gt;使用 Nodejs 写执行脚本&lt;/p&gt;
+&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+      <category term="技(Skill)" scheme="https://blog.ant-abel.com/categories/skill/"/>
+    
+    
+      <category term="nodejs" scheme="https://blog.ant-abel.com/tags/nodejs/"/>
+    
+      <category term="shell" scheme="https://blog.ant-abel.com/tags/shell/"/>
+    
+  </entry>
   
   <entry>
     <title>VSCode Prettier ESLint 打造JavaScript开发利器</title>
@@ -274,9 +361,9 @@
       <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
     
     
-      <category term="hexo" scheme="https://blog.ant-abel.com/tags/hexo/"/>
-    
       <category term="cookbook" scheme="https://blog.ant-abel.com/tags/cookbook/"/>
+    
+      <category term="hexo" scheme="https://blog.ant-abel.com/tags/hexo/"/>
     
   </entry>
   
@@ -285,7 +372,7 @@
     <link href="https://blog.ant-abel.com/2018/07/27/hexo-guide/"/>
     <id>https://blog.ant-abel.com/2018/07/27/hexo-guide/</id>
     <published>2018-07-27T10:26:27.000Z</published>
-    <updated>2018-08-02T01:50:53.631Z</updated>
+    <updated>2018-08-02T10:07:17.268Z</updated>
     
     <summary type="html">
     
