@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Linux Command Line]]></title>
+    <url>%2F2019%2F01%2F22%2Flinux-command-line%2F</url>
+    <content type="text"><![CDATA[man: 查看命令说明 pwd: 当前工作目录 ls: cd: 切换目录 where: 查找引用 where ruby ps: process status. ps aux wget:wget 是 linux 上的命令行的下载工具。这是一个 GPL 许可证下的自由软件。wget 支持 HTTP 和 FTP 协议，支持代理服务器和断点续传功能，能够自动递归远程主机的目录，找到合乎条件的文件并将其下载到本地硬盘上；如果必要，wget 将恰当地转换页面中的超级连接以在本地生成可浏览的镜像。由于没有交互式界面，wget 可在后台运行，截获并忽略 HANGUP 信号，因此在用户推出登录以后，仍可继续运行。通常，wget 用于成批量地下载 Internet 网站上的文件，或制作远程网站的镜像。 install: brew install wget , about Homebrew wget https://github.wdf.sap.corp/Entitlement/ems-ui-app-entl-mgmt/blob/master/webapp/Component.js wget -d http://192.168.1.168 下载 192.168.1.168 首页并且显示下载信息 wget -q http://192.168.1.168 下载 192.168.1.168 首页并且不显示下载信息 wget -i filelist.txt 批量下载 wget -c http://example.com/really-big-file.iso 断点续传 wget -b 后台下载]]></content>
+      <categories>
+        <category>技(Skill)</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>command</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[mac-zsh]]></title>
+    <url>%2F2019%2F01%2F22%2Fmac-zsh%2F</url>
+    <content type="text"><![CDATA[Zsh 安装配置 Zsh oh-my-zsh 参考 ZshZsh 是 Linux 的一种 Shell 外壳，和 bash 属于同类产品, 都是命令解释器。Mac 和一般 Linux 默认的 Shell 是 bash。 特色： 不区分大小写智能提示。我是不喜欢大小写区分的那种人，所以用了 zsh 之后，经常按 Tab 进行提示。 此外按下 tab 键显示出所有待选项后，再按一次 tab 键，即进入选择模式，进入选择模式后，按 tab 切向下一个选项，按 shift + tab 键切向上一个选项，ctrl+f/b/n/p 可以向前后左右切换。 kill + 空格键 + Tab 键，列出运行的进程 要啥哪个进程不需要再知道 PID 了，当然了 zsh，提供了让你知道 PID 的方法：比如输入：kill vim，再按下 tab，会变成：kill 5643 ls **/*，分层级地列出当前目录下所有文件及目录，并递归目录 ls *.png 查找当前目录下所有 png 文件 ls **/*.png 递归查找 zsh 的目录跳转很智能，你无需输入 cd 就可直接输入路径即可。比如：.. 表示后退一级目录，../../ 表示后退两级，依次类推。 在命令窗口中输入：d，将列出当前 session 访问过的所有目录，再按提示的数字即可进入相应目录。 安装配置ZshZsh （Mac 系统自带，无需安装)。 可以通过 cat /etc/shells. echo $SHELL 查看默认 Shell chsh -s /bin/zsh oh-my-zsh由于 Zsh 配置门槛有点高，或者说需要专门花时间去了解 Zsh 才能配置好一个好用的 Zsh，也因为这样，用户也就相对少了。直到有一天 oh-my-Zsh 的作者诞生，他想要整理出一个配置框架出来，让大家直接使用他的这个公认最好的 Zsh 配置，省去繁琐的配置过程。所以，oh-my-Zsh 就诞生了，它只是会了让你减少 Zsh 的配置，然后又可以好好享受 Zsh 这个 Shell。 安装 oh-my-zsh sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot; 安装 Monaco for Powerline 字体, 将该仓库克隆到本地，然后进入工程目录的 Monaco 目录，双击后缀名为 .otf 的字体文件即可完成该字体的安装。安装该字体的原因主要是为了和 Oh-My-Zsh 的 powerlevel9k 主题相兼容，如果不安装该字体，那么后面安装 powerlevel9kn 主题后会出现乱码。 安装主题Oh-My-Zsh powerlevel9k 主题git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k更多关于该主题的定制请看 customizing-prompt-segments； 修改 ~/.zshrc 配置文件，配置该主题ZSH_THEME=&quot;powerlevel9k/powerlevel9k&quot; 默认的命令提示符为 user@userdemackbookPro，这样的提示符配合 powerlevel9k 主题太过冗长，因此我选择将该冗长的提示符去掉，在 ~/.zshrc 配置文件后面追加如下内容DEFAULT_USER=”user” 设置 oh-my-zsh powerlevel9k 主题左边元素显示12POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs) # 设置 oh-my-zsh powerlevel9k 主题右边元素显示POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time) 配置 zsh 命令语法高亮, zsh-syntax-highlighting Clone this repository in oh-my-zsh’s plugins directory:git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting 关于 oh-my-zsh 插件的管理是很简单的，有两个插件目录： /Users/user/.oh-my-zsh/plugins: oh-my-zsh 官方插件目录，该目录已经预装了很多实用的插件，只不过没激活而已. git：oh-my-zsh 默认开启的，没什么好说的； extract：通用的解压缩插件，可以解压缩任何后缀的压缩文件，使用方法很简单：x 文件名； z：很智能的目录跳转插件，能记录之前 cd 过哪些目录，然后模糊匹配跳转，不需要输入全路径即可跳转，使用方法：z dir_pattern注意：重启生效。 /Users/user/.oh-my-zsh/custom/plugins: oh-my-zsh 第三方插件目录； 参考 一个 Java 程序员眼中的 Mac OS（系列六：终端方案 iTerm2 + Zsh） Mac 终端配置（Mac OSX + iTerm2 + Zsh + Oh-My-Zsh]]></content>
+      <categories>
+        <category>器(Tool)</category>
+      </categories>
+      <tags>
+        <tag>terminal</tag>
+        <tag>shell</tag>
+        <tag>bash</tag>
+        <tag>iterm2</tag>
+        <tag>Zsh</tag>
+        <tag>Oh-My-Zsh</tag>
+        <tag>powerlevel9k</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[iTerm2]]></title>
+    <url>%2F2019%2F01%2F22%2Fmac-iterm2%2F</url>
+    <content type="text"><![CDATA[基本内容 安装配置 参考 基本内容 iTerm2 作者意思：Mac 的默认终端 Terminal 太难用了，我们开发一个新的终端来代替它吧。 智能选中 连续双击选中，连续三击选中整行，连续四击智能选中（智能规则可配置），可以识别网址，引号引起的字符串，邮箱地址等。 选中即复制。即任何选中状态的字符串都被放到了系统剪切板中。 个人设置 hotkey window - option - all window - option + 常用快捷键 command + ;: 历史记录 字母 + command + ;: 根据输入的前缀自动补全 command + [/]: 切换屏幕 command + enter: 进入全屏，再按一次返回 command + 鼠标点击: 可以打开文件，文件夹和链接 command + n: 新建新的 Window 窗口 command + t: 新建标签页 command + Option + 数字: 切换 Window 窗口 command + w: 关闭当前标签或是窗口 command + d: 竖直分屏 command + shift + d: 水平分屏 command + r: 清屏 command + /: 按完之后，整个屏幕变成白茫茫的，而光标位置是一个小圆圈清除显示出来 command + f: 查找，所查找的内容会被自动复制 ,输入查找的部分字符，找到匹配的值按 tab，即可复制，带有补全功能 command + option + e: 全屏并排展示所有已经打开的标签页，带有可以搜索。 command + Option + b: 历史回放，记录最近时间内的操作。有一个类似播放器的进度条可以拖动查看你做了什么。存放内容设置（Preferences -&gt; Genernal -&gt; Instant Replay）。 command + shift + h: 查看剪贴板历史 command + Shift + m: 可以保存当前位置，之后可以按 Command + Shift + j 跳回这个位置. command + shift + alt + w: 关闭所有窗口 control + u: 清空当前行，无论光标在什么位置 Control + a: 移动到行首 Control + e: 移动到行尾 Control + r: 搜索历史命令 Control + w: 删除光标之前的单词 Control + y: 召回最近用命令删除的文字 安装配置 下载地址，官网：https://iterm2.com/ 更改配色方案 目前大家喜欢设置的配色方案为 solarized. 推荐 Solarized Dark Higher Contrast将该配色方案文件（Solarized Dark Higher Contrast.itermcolors）复制出来，保存到本地，文件命名为 SolarizedDarkHigherContrast.itermcolors ，然后双击即可安装 Hotkey Window (快速调出窗口) show/hide all windows with systm-wide hotkey Hotkey Window: 有时候只是执行几行命令，然后就不再使用它。可是我们还是必须要打开终端，使用完成后关闭它。但是用 iTerm2 这个功能只要按快捷键，出来虚化的终端，输入命令，然后再把光标放在其他地方自动就消息了。 参考 一个 Java 程序员眼中的 Mac OS（系列六：终端方案 iTerm2 + Zsh）]]></content>
+      <categories>
+        <category>器(Tool)</category>
+      </categories>
+      <tags>
+        <tag>terminal</tag>
+        <tag>shell</tag>
+        <tag>bash</tag>
+        <tag>iterm2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Homebrew]]></title>
+    <url>%2F2019%2F01%2F22%2Fmac-homebrew%2F</url>
+    <content type="text"><![CDATA[The missing package manager for macOS(macOS 缺失的软件包的管理器) Install Homebrew/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; 使用 Homebrew 安装 Apple 没有预装但 你需要的东西。brew install wget Homebrew 会将软件包安装到独立目录，并将其文件软链接至 /usr/local 。 12345678$ cd /usr/local$ find CellarCellar/wget/1.16.1Cellar/wget/1.16.1/bin/wgetCellar/wget/1.16.1/share/man/man1/wget.1\$ ls -l binbin/wget -&gt; ../Cellar/wget/1.16.1/bin/wget Homebrew 不会将文件安装到它本身目录之外，所以您可将 Homebrew 安装到任意位置。 完全基于 Git 和 ruby，所以自由修改的同时你仍可以轻松撤销你的变更或与上游更新合并。 Homebrew 使 macOS 更完整。使用 gem 来安装 gems、用 brew 来安装那些依赖包。 1234brew install gitbrew install wgetbrew install Zshsh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-Zsh/master/tools/install.sh -O -)" References Homebrew]]></content>
+      <categories>
+        <category>器(Tool)</category>
+      </categories>
+      <tags>
+        <tag>homebrew</tag>
+        <tag>brew</tag>
+        <tag>packge manager</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[MacOS 个人常用软件推荐]]></title>
+    <url>%2F2019%2F01%2F21%2Fmac-apps%2F</url>
+    <content type="text"><![CDATA[系统小工具 Alfred 类似系统自带的 Spotlight， 但是功能更强大， 查看Alfred 摘记 Iterm2 Shell, Terminal bash, Zsh(mac-zsh) Homebrew, 查看Homebrew Enpass 密码管理 1Password Dr. Unarchiver App Cleaner &amp; Uninstaller Cinch 分屏 Magnet Cheetsheet 长安 command 查看 app 所有快捷键 Cinch 分屏 Magnet Cheetsheet 长安 command 查看 app 所有快捷键 Xnip 截图软件 Snagit Xmind 思维导图 iThoughtsX 编辑器 VsCode 前端开发，Markdown 编辑神器.]]></content>
+      <categories>
+        <category>器(Tool)</category>
+      </categories>
+      <tags>
+        <tag>mac</tag>
+        <tag>mac os</tag>
+        <tag>app</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Alfred 摘记]]></title>
     <url>%2F2019%2F01%2F17%2Fmac-alfred%2F</url>
     <content type="text"><![CDATA[Highlight General Features Default Results File Search Web Search Termianl / Shell Workflow Reference Highlight 热键打开主界面: option+command(默认设置) Alfred 建议我们可以通过 Open + 关键字 或者 Space（空格键 来查询文件或者文件, find路径查找，in文件查找 Web Search: 通过 Key 选择用于搜索的网站，如 ask hellworld. Calculator: Input 1024+1024\*1024 filter buffer ⌥↑(add to buffer), ⌥→(action for all), ⌥ backspace(remove all buffer) fn + tab: to action selected item shift 或 Command + Y: to quick view selected item option + command + \\(⌥⌘\\): actions for all selected item in finder option + command + / (⌥⌘/): 路径方式展示当前目录 Clipboard: option + command + c (⌥⌘c) Dictionary: define: Pressing the Return key will open the word in Dictionary.app spell: best guess of the word you want to spell, pressing the Return key will copy the correct spelling to your clipboard. cmd + o to open in app. General Startup：设置系统启动时是否自启动。 Alfred Hotkey：设置呼出 Alfred 的热键。 Where are you：这个设置比较特别，因为 Alfred 内置了常用网站搜索功能，在这里设置了你所在的国家后，Alfred 在搜索时会打开搜索网站对应国家的网站 FeaturesDefault Results Essentials: 搜索「应用程序」、「联系人」、「设置」 Etras Alfred 建议我们可以通过 Open + 关键字 或者 Space（空格键) 来查询文件或者文件夹 Search Scope: 设置 Alfred 查询时会搜索的文件夹 Fallbacks: 如果没有查到结果使用 Google 还是其它网站来搜索结果 File Search Use the “open” keyword to open a file (or press the spacebar as a shortcut) Use the “find” keyword to reveal the file in Finder Use the “in” keyword to search inside your files’ content Note: File Filters to create custom search File Navigation / (slash) to take you to the root folder on your Mac, or ~ (tilde) to go to your user directory. /* (star) to file name File Buffer ⌥↑ to add a file to the buffer from Alfred’s results ⌥↓ to add a file and move to the next item in your list of results ⌥← to remove the last item from the buffer ⌥→ to action all items in the buffer ⌥ backspace to remove all items from the buffer File Previews shift: to quick look selected item Actions →: to action selected item Want to take action on multiple files at once? Select them in Finder and press the Finder Selection hotkey (which is ⌥⌘\ by default). Want to add your own custom file actions? Take a look at the File Action Triggers Web Search Add custom search baidu: http://www.baidu.com/s?ie=UTF-8&amp;wd={query} zhihu: https://www.zhihu.com/search?type=content&amp;q={query} jianshu: https://www.jianshu.com/search?q={query} Fallbacks of defalt search settings: Termianl / Shell Refer to https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred 123456789101112131415161718192021222324252627282930313233343536373839404142434445-- This is v0.7 of the custom script for AlfredApp for iTerm 3.1.1+-- created by Sinan Eldem www.sinaneldem.com.tron alfred_script(q) if application "iTerm2" is running or application "iTerm" is running then run script " on run &#123;q&#125; tell application \"iTerm\" activate try select first window set onlywindow to true on error create window with default profile select first window set onlywindow to true end try tell the first window if onlywindow is false then create tab with default profile end if tell current session to write text q end tell end tell end run " with parameters &#123;q&#125; else run script " on run &#123;q&#125; tell application \"iTerm\" activate try select first window on error create window with default profile select first window end try tell the first window tell current session to write text q end tell end tell end run " with parameters &#123;q&#125; end ifend alfred_script WorkflowReference Alfred Help and Support 从零开始学习 Alfred：基础功能及设置 杀手级功能 WorkFlows 介绍(1)-Alfred 使用手册 2]]></content>
@@ -8,8 +77,9 @@
         <category>器(Tool)</category>
       </categories>
       <tags>
-        <tag>Mac OS</tag>
-        <tag>App</tag>
+        <tag>mac</tag>
+        <tag>mac os</tag>
+        <tag>app</tag>
       </tags>
   </entry>
   <entry>
@@ -20,8 +90,8 @@
         <category>技(Skill)</category>
       </categories>
       <tags>
-        <tag>docker</tag>
         <tag>cookbook</tag>
+        <tag>docker</tag>
       </tags>
   </entry>
   <entry>
@@ -44,8 +114,8 @@
         <category>技(Skill)</category>
       </categories>
       <tags>
-        <tag>nodejs</tag>
         <tag>shell</tag>
+        <tag>nodejs</tag>
       </tags>
   </entry>
   <entry>
@@ -131,8 +201,8 @@
       </categories>
       <tags>
         <tag>guide</tag>
-        <tag>markdown</tag>
         <tag>vscode</tag>
+        <tag>markdown</tag>
       </tags>
   </entry>
   <entry>
@@ -155,8 +225,8 @@
         <category>器(Tool)</category>
       </categories>
       <tags>
-        <tag>cookbook</tag>
         <tag>hexo</tag>
+        <tag>cookbook</tag>
       </tags>
   </entry>
   <entry>
