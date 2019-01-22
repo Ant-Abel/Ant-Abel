@@ -90,8 +90,8 @@
         <category>技(Skill)</category>
       </categories>
       <tags>
-        <tag>cookbook</tag>
         <tag>docker</tag>
+        <tag>cookbook</tag>
       </tags>
   </entry>
   <entry>
@@ -201,8 +201,8 @@
       </categories>
       <tags>
         <tag>guide</tag>
-        <tag>vscode</tag>
         <tag>markdown</tag>
+        <tag>vscode</tag>
       </tags>
   </entry>
   <entry>
@@ -225,8 +225,8 @@
         <category>器(Tool)</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
         <tag>cookbook</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
