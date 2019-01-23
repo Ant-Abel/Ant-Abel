@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ant-abel.com/"/>
-  <updated>2019-01-22T10:08:21.007Z</updated>
+  <updated>2019-01-23T06:59:48.949Z</updated>
   <id>https://blog.ant-abel.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.ant-abel.com/2019/01/22/linux-command-line/"/>
     <id>https://blog.ant-abel.com/2019/01/22/linux-command-line/</id>
     <published>2019-01-22T09:48:41.000Z</published>
-    <updated>2019-01-22T10:08:21.007Z</updated>
+    <updated>2019-01-23T06:59:48.949Z</updated>
     
     <summary type="html">
     
@@ -31,9 +31,8 @@
         
           &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;man&lt;/code&gt;: 查看命令说明&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;pwd&lt;/code&gt;: 当前工作目录&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ls&lt;/code&gt;:&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;cd&lt;/code&gt;:
+&lt;li&gt;export: 显示所有的环境变量&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;echo $VARIABLE_NAME&lt;/code&gt;
         
       
     
@@ -53,7 +52,7 @@
     <link href="https://blog.ant-abel.com/2019/01/22/mac-zsh/"/>
     <id>https://blog.ant-abel.com/2019/01/22/mac-zsh/</id>
     <published>2019-01-22T08:16:04.000Z</published>
-    <updated>2019-01-22T10:20:01.222Z</updated>
+    <updated>2019-01-22T11:25:30.861Z</updated>
     
     <summary type="html">
     
@@ -160,7 +159,7 @@
     <link href="https://blog.ant-abel.com/2019/01/21/mac-apps/"/>
     <id>https://blog.ant-abel.com/2019/01/21/mac-apps/</id>
     <published>2019-01-21T11:27:45.000Z</published>
-    <updated>2019-01-22T10:10:44.922Z</updated>
+    <updated>2019-01-23T07:03:53.450Z</updated>
     
     <summary type="html">
     
