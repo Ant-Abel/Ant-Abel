@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[MkDocs]]></title>
+    <url>%2F2019%2F02%2F18%2Fmkdocs%2F</url>
+    <content type="text"><![CDATA[Project documentation with Markdown. MkDocs is a fast, simple and downright gorgeous static site generator that’s geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file. MkDocs builds completely static HTML sites that you can host on GitHub pages, Amazon S3, or anywhere else you choose. Great themes available Install with a Package Manager 1brew install mkdocs Commands mkdocs new [dir-name] - Create a new project. mkdocs serve - Start the live-reloading docs server. mkdocs build - Build the documentation site. mkdocs help - Print this help message. mkdocs gh-deploy - Deploy your documentation to GitHub Pages Project layout 1234mkdocs.yml # The configuration file.docs/ index.md # The documentation homepage. ... # Other markdown pages, images and other files. Deploying GitHub Pages User, Organization, and Project Pages Creating Project Pages using the command line Configuring a publishing source for GitHub Pages User Guide Writing your docs Styling your docs Configuration Deploying your docs Custom themes Plugins Theme: Material for MkDocs Hands-on install mkdocs 1brew install mkdocs or 12345// install pip for the first timecurl https://bootstrap.pypa.io/get-pip.py -o get-pip.pysudo python get-pip.pypip install mkdocs Initial MkDocs Project 1234567&gt; mkdocs -hUsage: mkdocs [OPTIONS] COMMAND [ARGS]...&gt; mkdocs new scpINFO - Creating project directory: scpINFO - Writing config file: scp/mkdocs.ymlINFO - Writing initial docs: scp/docs/index.md Sync with GitHub Repo 123456git initecho 'site/' &gt;&gt; .gitignoregit add .git commit -m "init my MkDocs project"git remote add origin git@github.wdf.sap.corp:I074174/scp.gitgit push -u origin master Note:Once you have a master branch, if you need to remove all content from the working directory. using git rm -rf Build to generate site 123&gt; mkdocs buildINFO - Cleaning site directoryINFO - Building documentation to directory: /Users/i074174/Documents/GitHub/scp/site Deploy it as Project Github pages 123456&gt; mkdocs gh-deployNFO - Cleaning site directoryINFO - Building documentation to directory: /Users/i074174/Documents/GitHub/scp/siteWARNING - Version check skipped: No version specificed in previous deployment.INFO - Copying &apos;/Users/i074174/Documents/GitHub/scp/site&apos; to &apos;gh-pages&apos; branch and pushing to GitHub.INFO - Your documentation should be available shortly. Your site is published at https://github.wdf.sap.corp/pages/I074174/scp/ Change the themeInstall the latest version of Material with pip: 1pip install mkdocs-material Append the following line to your project’s mkdocs.yml: 12theme: name: 'material' 12345678910111213141516site_name: Abel's SCP Docstheme: name: 'material'nav: - Home: index.md - SCP Overview: scp.md - Terminology: terminology.md - SAP AppRouter: cf_approuter.md - SCP Multi-Tenancy: scp_multitenancy.md - SAP UAA: cf_uaa.md - SaaS App Registration in CF: saas_app_reg_in_cf.md - IAS: ias.md - CF CLI: cf_cli.mdcopyright: Copyright &amp;copy; 2018 SAP SE. All rights reserved. INTERNAL ONLY. Maintained by the &lt;a href="https://people.wdf.sap.corp/profiles/I074174"&gt;Abel Zhang&lt;/a&gt;. Any changes to repeat step 4 and 5. VSCode settings:add .vscode/settings.json123&#123; "pasteImage.path": "$&#123;projectRoot&#125;/docs/img"&#125; Reference MkDocs]]></content>
+      <categories>
+        <category>器(Tool)</category>
+        <category>悟(Tattle)</category>
+      </categories>
+      <tags>
+        <tag>MkDocs</tag>
+        <tag>GitHub Pages</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Linux Command Line]]></title>
     <url>%2F2019%2F01%2F22%2Flinux-command-line%2F</url>
     <content type="text"><![CDATA[man: 查看命令说明 export: 显示所有的环境变量 echo $VARIABLE_NAME 获取某个变量的详细信息 echo: echo Hello World or echo -ne &quot;Hello\nWorld\n&quot; echo $SHELL whereis 系统自动构建的数据库来搜索可执行文件，源文件和手册页面。 which 它在环境变量 PATH 指定的目录中搜索可执行文件。此命令将打印可执行文件的完整路径。 clear 清除窗口上的内容。 sudo: allows a permitted user to execute a command as the superuser or another user pwd: 当前工作目录 ls: 列出您的文件 ls -a: 列出所有文件，包括隐藏文件 ls -l: 列出“长格式”的文件 ls **/* or ls *.js cd: 切换目录 mkdir：创建 folder where: 查找引用 where ruby ps: process status. ps aux wget:wget 是 linux 上的命令行的下载工具。这是一个 GPL 许可证下的自由软件。wget 支持 HTTP 和 FTP 协议，支持代理服务器和断点续传功能，能够自动递归远程主机的目录，找到合乎条件的文件并将其下载到本地硬盘上；如果必要，wget 将恰当地转换页面中的超级连接以在本地生成可浏览的镜像。由于没有交互式界面，wget 可在后台运行，截获并忽略 HANGUP 信号，因此在用户推出登录以后，仍可继续运行。通常，wget 用于成批量地下载 Internet 网站上的文件，或制作远程网站的镜像。 install: brew install wget , about Homebrew wget https://github.wdf.sap.corp/Entitlement/ems-ui-app-entl-mgmt/blob/master/webapp/Component.js wget -d http://192.168.1.168 下载 192.168.1.168 首页并且显示下载信息 wget -q http://192.168.1.168 下载 192.168.1.168 首页并且不显示下载信息 wget -i filelist.txt 批量下载 wget -c http://example.com/really-big-file.iso 断点续传 wget -b 后台下载 参考 10 分钟学会 Linux 常用 bash 命令]]></content>
@@ -90,8 +103,8 @@
         <category>技(Skill)</category>
       </categories>
       <tags>
-        <tag>docker</tag>
         <tag>cookbook</tag>
+        <tag>docker</tag>
       </tags>
   </entry>
   <entry>
@@ -225,8 +238,8 @@
         <category>器(Tool)</category>
       </categories>
       <tags>
-        <tag>cookbook</tag>
         <tag>hexo</tag>
+        <tag>cookbook</tag>
       </tags>
   </entry>
   <entry>

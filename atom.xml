@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ant-abel.com/"/>
-  <updated>2019-01-23T06:59:48.949Z</updated>
+  <updated>2019-02-19T06:56:23.970Z</updated>
   <id>https://blog.ant-abel.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MkDocs</title>
+    <link href="https://blog.ant-abel.com/2019/02/18/mkdocs/"/>
+    <id>https://blog.ant-abel.com/2019/02/18/mkdocs/</id>
+    <published>2019-02-18T10:27:13.000Z</published>
+    <updated>2019-02-19T06:56:23.970Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Project documentation with Markdown.&lt;/p&gt;
+&lt;p&gt;MkDocs is a fast, simple and downright gorgeous static site generator that’s geared towards
+        
+      
+    
+    </summary>
+    
+      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
+    
+      <category term="悟(Tattle)" scheme="https://blog.ant-abel.com/categories/tool/tattle/"/>
+    
+    
+      <category term="MkDocs" scheme="https://blog.ant-abel.com/tags/MkDocs/"/>
+    
+      <category term="GitHub Pages" scheme="https://blog.ant-abel.com/tags/GitHub-Pages/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux Command Line</title>
@@ -241,9 +272,9 @@
       <category term="技(Skill)" scheme="https://blog.ant-abel.com/categories/skill/"/>
     
     
-      <category term="docker" scheme="https://blog.ant-abel.com/tags/docker/"/>
-    
       <category term="cookbook" scheme="https://blog.ant-abel.com/tags/cookbook/"/>
+    
+      <category term="docker" scheme="https://blog.ant-abel.com/tags/docker/"/>
     
   </entry>
   
@@ -562,9 +593,9 @@
       <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
     
     
-      <category term="cookbook" scheme="https://blog.ant-abel.com/tags/cookbook/"/>
-    
       <category term="hexo" scheme="https://blog.ant-abel.com/tags/hexo/"/>
+    
+      <category term="cookbook" scheme="https://blog.ant-abel.com/tags/cookbook/"/>
     
   </entry>
   
@@ -594,34 +625,6 @@
       <category term="hexo" scheme="https://blog.ant-abel.com/tags/hexo/"/>
     
       <category term="guide" scheme="https://blog.ant-abel.com/tags/guide/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://blog.ant-abel.com/2018/07/25/hello-world/"/>
-    <id>https://blog.ant-abel.com/2018/07/25/hello-world/</id>
-    <published>2018-07-25T02:10:10.000Z</published>
-    <updated>2018-08-02T01:16:25.643Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://blog.ant-abel.com/&quot;&gt;Abel’s Blog&lt;/a&gt;! As a developer, we are always using “Hello World” as a
-        
-      
-    
-    </summary>
-    
-      <category term="悟(Tattle)" scheme="https://blog.ant-abel.com/categories/tattle/"/>
-    
-    
-      <category term="ant" scheme="https://blog.ant-abel.com/tags/ant/"/>
-    
-      <category term="较真儿" scheme="https://blog.ant-abel.com/tags/%E8%BE%83%E7%9C%9F%E5%84%BF/"/>
     
   </entry>
   
