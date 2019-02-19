@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ant-abel.com/"/>
-  <updated>2019-02-19T06:56:23.970Z</updated>
+  <updated>2019-02-19T07:01:29.105Z</updated>
   <id>https://blog.ant-abel.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.ant-abel.com/2019/02/18/mkdocs/"/>
     <id>https://blog.ant-abel.com/2019/02/18/mkdocs/</id>
     <published>2019-02-18T10:27:13.000Z</published>
-    <updated>2019-02-19T06:56:23.970Z</updated>
+    <updated>2019-02-19T07:01:29.105Z</updated>
     
     <summary type="html">
     
@@ -37,8 +37,6 @@
     </summary>
     
       <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
-    
-      <category term="悟(Tattle)" scheme="https://blog.ant-abel.com/categories/tool/tattle/"/>
     
     
       <category term="MkDocs" scheme="https://blog.ant-abel.com/tags/MkDocs/"/>
@@ -272,9 +270,9 @@
       <category term="技(Skill)" scheme="https://blog.ant-abel.com/categories/skill/"/>
     
     
-      <category term="cookbook" scheme="https://blog.ant-abel.com/tags/cookbook/"/>
-    
       <category term="docker" scheme="https://blog.ant-abel.com/tags/docker/"/>
+    
+      <category term="cookbook" scheme="https://blog.ant-abel.com/tags/cookbook/"/>
     
   </entry>
   
@@ -593,9 +591,9 @@
       <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
     
     
-      <category term="hexo" scheme="https://blog.ant-abel.com/tags/hexo/"/>
-    
       <category term="cookbook" scheme="https://blog.ant-abel.com/tags/cookbook/"/>
+    
+      <category term="hexo" scheme="https://blog.ant-abel.com/tags/hexo/"/>
     
   </entry>
   
