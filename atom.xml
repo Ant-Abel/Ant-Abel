@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ant-abel.com/"/>
-  <updated>2019-02-20T02:12:28.972Z</updated>
+  <updated>2019-02-21T11:55:57.607Z</updated>
   <id>https://blog.ant-abel.com/</id>
   
   <author>
@@ -17,11 +17,75 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Slides</title>
+    <title>gh-pages Deployment</title>
+    <link href="https://blog.ant-abel.com/2019/02/21/gh-pages-deployment/"/>
+    <id>https://blog.ant-abel.com/2019/02/21/gh-pages-deployment/</id>
+    <published>2019-02-21T11:52:10.000Z</published>
+    <updated>2019-02-21T11:55:57.607Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Deploying-a-subfolder-to-GitHub-Pages&quot;&gt;&lt;a href=&quot;#Deploying-a-subfolder-to-GitHub-Pages&quot; class=&quot;headerlink&quot; title=&quot;Deploying a
+        
+      
+    
+    </summary>
+    
+      <category term="技(Skill)" scheme="https://blog.ant-abel.com/categories/skill/"/>
+    
+      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/skill/tool/"/>
+    
+    
+      <category term="gh-pages" scheme="https://blog.ant-abel.com/tags/gh-pages/"/>
+    
+      <category term="github" scheme="https://blog.ant-abel.com/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Revealjs</title>
+    <link href="https://blog.ant-abel.com/2019/02/21/revealjs/"/>
+    <id>https://blog.ant-abel.com/2019/02/21/revealjs/</id>
+    <published>2019-02-21T02:11:58.000Z</published>
+    <updated>2019-02-21T11:49:00.416Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;A tool to create web slides.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Github: &lt;a href=&quot;https://github.com/hakimel/reveal.js#full-setup&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技(Skill)" scheme="https://blog.ant-abel.com/categories/skill/"/>
+    
+      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/skill/tool/"/>
+    
+    
+      <category term="reveeal" scheme="https://blog.ant-abel.com/tags/reveeal/"/>
+    
+      <category term="slides" scheme="https://blog.ant-abel.com/tags/slides/"/>
+    
+      <category term="ppt" scheme="https://blog.ant-abel.com/tags/ppt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Web Slides</title>
     <link href="https://blog.ant-abel.com/2019/02/19/ppt/"/>
     <id>https://blog.ant-abel.com/2019/02/19/ppt/</id>
     <published>2019-02-19T11:29:26.000Z</published>
-    <updated>2019-02-20T02:12:28.972Z</updated>
+    <updated>2019-02-21T11:50:42.614Z</updated>
     
     <summary type="html">
     
@@ -299,9 +363,9 @@
       <category term="技(Skill)" scheme="https://blog.ant-abel.com/categories/skill/"/>
     
     
-      <category term="docker" scheme="https://blog.ant-abel.com/tags/docker/"/>
-    
       <category term="cookbook" scheme="https://blog.ant-abel.com/tags/cookbook/"/>
+    
+      <category term="docker" scheme="https://blog.ant-abel.com/tags/docker/"/>
     
   </entry>
   
@@ -562,67 +626,9 @@
     
       <category term="guide" scheme="https://blog.ant-abel.com/tags/guide/"/>
     
+      <category term="vscode" scheme="https://blog.ant-abel.com/tags/vscode/"/>
+    
       <category term="markdown" scheme="https://blog.ant-abel.com/tags/markdown/"/>
-    
-      <category term="vscode" scheme="https://blog.ant-abel.com/tags/vscode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Visual Studio Code(VSCode) Basic</title>
-    <link href="https://blog.ant-abel.com/2018/07/30/vscode/"/>
-    <id>https://blog.ant-abel.com/2018/07/30/vscode/</id>
-    <published>2018-07-30T10:01:37.000Z</published>
-    <updated>2018-08-02T01:51:20.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;体验了 Atom 和 Sublime，做为轻量级文本编辑器，个人还是比较喜欢 VS Code。如下内容足够你了解 VS Code，让轻轻松松上路。&lt;/p&gt;
-&lt;p&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
-    
-    
-      <category term="guide" scheme="https://blog.ant-abel.com/tags/guide/"/>
-    
-      <category term="vscode" scheme="https://blog.ant-abel.com/tags/vscode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo写作Cookbook</title>
-    <link href="https://blog.ant-abel.com/2018/07/27/hexo-writting-cookbook/"/>
-    <id>https://blog.ant-abel.com/2018/07/27/hexo-writting-cookbook/</id>
-    <published>2018-07-27T10:27:31.000Z</published>
-    <updated>2019-01-17T07:29:47.020Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;此博文做为 Hexo 写作的 Cookbook，记录写作中常用内容，方便参考引用。&lt;/p&gt;
-&lt;h2 id=&quot;命令&quot;&gt;&lt;a href=&quot;#命令&quot; class=&quot;headerlink&quot; title=&quot;命令&quot;&gt;&lt;/a&gt;命令&lt;/h2&gt;&lt;h3
-        
-      
-    
-    </summary>
-    
-      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
-    
-    
-      <category term="cookbook" scheme="https://blog.ant-abel.com/tags/cookbook/"/>
-    
-      <category term="hexo" scheme="https://blog.ant-abel.com/tags/hexo/"/>
     
   </entry>
   
