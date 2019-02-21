@@ -113,7 +113,7 @@
 <meta property="og:site_name" content="Abel&#39;s Blog">
 <meta property="og:description" content="Deploying a subfolder to GitHub PagesSometimes you want to have a subdirectory on the master branch be the root directory of a repository’s gh-pages branch. For the sake of this example, let’s pretend">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-02-21T11:55:57.607Z">
+<meta property="og:updated_time" content="2019-02-21T12:00:32.822Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="gh-pages Deployment">
 <meta name="twitter:description" content="Deploying a subfolder to GitHub PagesSometimes you want to have a subdirectory on the master branch be the root directory of a repository’s gh-pages branch. For the sake of this example, let’s pretend">
@@ -471,7 +471,7 @@
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git subtree push --prefix dist origin gh-pages</span><br></pre></td></tr></table></figure>
 <p>Boom. If your folder isn’t called <code>dist</code>, then you’ll need to change that in each of the commands above.</p>
 <hr>
-<p>If you do this on a regular basis, you could also create a script](<a href="https://github.com/cobyism/dotfiles/blob/master/bin/git-gh-deploy" target="_blank" rel="noopener">https://github.com/cobyism/dotfiles/blob/master/bin/git-gh-deploy</a> as following:</p>
+<p>If you do this on a regular basis, you could also create a script as following:</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line"><span class="keyword">if</span> [ -z <span class="string">"<span class="variable">$1</span>"</span> ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">  <span class="built_in">echo</span> <span class="string">"Which folder do you want to deploy to GitHub Pages?"</span></span><br><span class="line">  <span class="built_in">exit</span> 1</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line">git add <span class="variable">$1</span> &amp;&amp; git commit -m <span class="string">"Initial folder as a subtree commit"</span></span><br><span class="line">git subtree push --prefix <span class="variable">$1</span> origin gh-pages</span><br></pre></td></tr></table></figure>
 <p>Run above shell as below:</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># if file path is bin/git-deploy-gh-pages.sh</span></span><br><span class="line">bash bin/git-deploy-gh-pages.sh dist</span><br></pre></td></tr></table></figure>

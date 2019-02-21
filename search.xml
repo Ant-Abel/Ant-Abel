@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[gh-pages Deployment]]></title>
     <url>%2F2019%2F02%2F21%2Fgh-pages-deployment%2F</url>
-    <content type="text"><![CDATA[Deploying a subfolder to GitHub PagesSometimes you want to have a subdirectory on the master branch be the root directory of a repository’s gh-pages branch. For the sake of this example, let’s pretend the subfolder containing your site is named dist. Step 1Make sure no other changes in master branch.Remove the dist directory from the project’s .gitignore file. That mean original dist is ignored in master branch. Step 2Make sure git knows about your subtree (the subfolder with your site). 1git add dist &amp;&amp; git commit -m "Initial dist subtree commit" Step 3Use subtree push to send it to the gh-pages branch on GitHub. 1git subtree push --prefix dist origin gh-pages Boom. If your folder isn’t called dist, then you’ll need to change that in each of the commands above. If you do this on a regular basis, you could also create a script](https://github.com/cobyism/dotfiles/blob/master/bin/git-gh-deploy as following: 12345678#!/bin/shif [ -z "$1" ]then echo "Which folder do you want to deploy to GitHub Pages?" exit 1figit add $1 &amp;&amp; git commit -m "Initial folder as a subtree commit"git subtree push --prefix $1 origin gh-pages Run above shell as below: 12# if file path is bin/git-deploy-gh-pages.shbash bin/git-deploy-gh-pages.sh dist GitHub Pages User, Organization, and Project Pages Creating Project Pages using the command line Configuring a publishing source for GitHub Pages]]></content>
+    <content type="text"><![CDATA[Deploying a subfolder to GitHub PagesSometimes you want to have a subdirectory on the master branch be the root directory of a repository’s gh-pages branch. For the sake of this example, let’s pretend the subfolder containing your site is named dist. Step 1Make sure no other changes in master branch.Remove the dist directory from the project’s .gitignore file. That mean original dist is ignored in master branch. Step 2Make sure git knows about your subtree (the subfolder with your site). 1git add dist &amp;&amp; git commit -m "Initial dist subtree commit" Step 3Use subtree push to send it to the gh-pages branch on GitHub. 1git subtree push --prefix dist origin gh-pages Boom. If your folder isn’t called dist, then you’ll need to change that in each of the commands above. If you do this on a regular basis, you could also create a script as following: 12345678#!/bin/shif [ -z "$1" ]then echo "Which folder do you want to deploy to GitHub Pages?" exit 1figit add $1 &amp;&amp; git commit -m "Initial folder as a subtree commit"git subtree push --prefix $1 origin gh-pages Run above shell as below: 12# if file path is bin/git-deploy-gh-pages.shbash bin/git-deploy-gh-pages.sh dist GitHub Pages User, Organization, and Project Pages Creating Project Pages using the command line Configuring a publishing source for GitHub Pages]]></content>
       <categories>
         <category>技(Skill)</category>
         <category>器(Tool)</category>
@@ -141,8 +141,8 @@
         <category>技(Skill)</category>
       </categories>
       <tags>
-        <tag>cookbook</tag>
         <tag>docker</tag>
+        <tag>cookbook</tag>
       </tags>
   </entry>
   <entry>
@@ -252,8 +252,8 @@
       </categories>
       <tags>
         <tag>guide</tag>
-        <tag>vscode</tag>
         <tag>markdown</tag>
+        <tag>vscode</tag>
       </tags>
   </entry>
   <entry>
@@ -276,8 +276,8 @@
         <category>器(Tool)</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
         <tag>cookbook</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
