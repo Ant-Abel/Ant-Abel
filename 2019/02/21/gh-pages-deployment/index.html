@@ -113,7 +113,7 @@
 <meta property="og:site_name" content="Abel&#39;s Blog">
 <meta property="og:description" content="Deploying a subfolder to GitHub PagesSometimes you want to have a subdirectory on the master branch be the root directory of a repository’s gh-pages branch. For the sake of this example, let’s pretend">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-02-21T12:00:32.822Z">
+<meta property="og:updated_time" content="2019-02-22T11:49:22.725Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="gh-pages Deployment">
 <meta name="twitter:description" content="Deploying a subfolder to GitHub PagesSometimes you want to have a subdirectory on the master branch be the root directory of a repository’s gh-pages branch. For the sake of this example, let’s pretend">
@@ -475,6 +475,18 @@
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line"><span class="keyword">if</span> [ -z <span class="string">"<span class="variable">$1</span>"</span> ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">  <span class="built_in">echo</span> <span class="string">"Which folder do you want to deploy to GitHub Pages?"</span></span><br><span class="line">  <span class="built_in">exit</span> 1</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line">git add <span class="variable">$1</span> &amp;&amp; git commit -m <span class="string">"Initial folder as a subtree commit"</span></span><br><span class="line">git subtree push --prefix <span class="variable">$1</span> origin gh-pages</span><br></pre></td></tr></table></figure>
 <p>Run above shell as below:</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># if file path is bin/git-deploy-gh-pages.sh</span></span><br><span class="line">bash bin/git-deploy-gh-pages.sh dist</span><br></pre></td></tr></table></figure>
+<h2 id="Better-Approach"><a href="#Better-Approach" class="headerlink" title="Better Approach"></a>Better Approach</h2><ol>
+<li>git checkout master # you can avoid this line if you are in master…</li>
+<li>git subtree split –prefix dist -b gh-pages # create a local gh-pages branch containing the splitted output folder</li>
+<li>git push -f origin gh-pages:gh-pages # force the push of the gh-pages branch to the remote gh-pages branch at origin</li>
+<li>git branch -D gh-pages # delete the local gh-pages because you will need it: ref</li>
+</ol>
+<p>or:</p>
+<blockquote>
+<p>git push origin <code>git subtree split --prefix build_folder master</code>:gh-pages –force</p>
+</blockquote>
+<p>or:<br>If you want to immediately push to <code>gh-pages</code> as soon as you’ve committed updates to the website, you can try this: (replace <code>site</code> with your own specific subdirectory)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># if anything in the site/ subdirectory changed in the prior commit,</span></span><br><span class="line"><span class="comment"># push that directory to gh-pages for auto generation.</span></span><br><span class="line">git diff-tree -r --name-only --no-commit-id master | grep <span class="string">'^site/'</span> &amp;&gt; /dev/null</span><br><span class="line"><span class="keyword">if</span> [ $? == 0 ]; <span class="keyword">then</span></span><br><span class="line">  git push origin `git subtree split --prefix site master 2&gt; /dev/null`:gh-pages --force</span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
 <h2 id="GitHub-Pages"><a href="#GitHub-Pages" class="headerlink" title="GitHub Pages"></a>GitHub Pages</h2><ul>
 <li><a href="https://help.github.com/articles/user-organization-and-project-pages/#project-pages-sites" target="_blank" rel="noopener">User, Organization, and Project Pages</a></li>
 <li><a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/" target="_blank" rel="noopener">Creating Project Pages using the command line</a></li>
@@ -758,7 +770,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Deploying-a-subfolder-to-GitHub-Pages"><span class="nav-number">1.</span> <span class="nav-text">Deploying a subfolder to GitHub Pages</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Step-1"><span class="nav-number">1.1.</span> <span class="nav-text">Step 1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Step-2"><span class="nav-number">1.2.</span> <span class="nav-text">Step 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Step-3"><span class="nav-number">1.3.</span> <span class="nav-text">Step 3</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#GitHub-Pages"><span class="nav-number">2.</span> <span class="nav-text">GitHub Pages</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Deploying-a-subfolder-to-GitHub-Pages"><span class="nav-number">1.</span> <span class="nav-text">Deploying a subfolder to GitHub Pages</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Step-1"><span class="nav-number">1.1.</span> <span class="nav-text">Step 1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Step-2"><span class="nav-number">1.2.</span> <span class="nav-text">Step 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Step-3"><span class="nav-number">1.3.</span> <span class="nav-text">Step 3</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Better-Approach"><span class="nav-number">2.</span> <span class="nav-text">Better Approach</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#GitHub-Pages"><span class="nav-number">3.</span> <span class="nav-text">GitHub Pages</span></a></li></ol></div>
             
 
           </div>
