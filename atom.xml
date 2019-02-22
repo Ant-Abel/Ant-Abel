@@ -51,7 +51,7 @@
     <link href="https://blog.ant-abel.com/2019/02/21/revealjs/"/>
     <id>https://blog.ant-abel.com/2019/02/21/revealjs/</id>
     <published>2019-02-21T02:11:58.000Z</published>
-    <updated>2019-02-21T11:49:00.416Z</updated>
+    <updated>2019-02-22T06:42:43.013Z</updated>
     
     <summary type="html">
     
@@ -59,9 +59,7 @@
       
         
         
-          &lt;p&gt;A tool to create web slides.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Github: &lt;a href=&quot;https://github.com/hakimel/reveal.js#full-setup&quot; target=&quot;_blank&quot;
+          &lt;p&gt;A tool to create web slides. This focus on vscode-reveal that a markdown file as a slides. See &lt;a
         
       
     
