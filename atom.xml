@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ant-abel.com/"/>
-  <updated>2019-02-22T11:49:22.725Z</updated>
+  <updated>2019-02-22T12:34:39.003Z</updated>
   <id>https://blog.ant-abel.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git Command</title>
+    <link href="https://blog.ant-abel.com/2019/02/22/git-command/"/>
+    <id>https://blog.ant-abel.com/2019/02/22/git-command/</id>
+    <published>2019-02-22T12:23:25.000Z</published>
+    <updated>2019-02-22T12:34:39.003Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Collection&quot;&gt;&lt;a href=&quot;#Collection&quot; class=&quot;headerlink&quot; title=&quot;Collection&quot;&gt;&lt;/a&gt;Collection&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Remove all files to create
+        
+      
+    
+    </summary>
+    
+      <category term="技(Skill)" scheme="https://blog.ant-abel.com/categories/skill/"/>
+    
+    
+      <category term="Git" scheme="https://blog.ant-abel.com/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>gh-pages Deployment</title>
@@ -596,37 +623,6 @@
       <category term="hexo" scheme="https://blog.ant-abel.com/tags/hexo/"/>
     
       <category term="tips" scheme="https://blog.ant-abel.com/tags/tips/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>VSCode Markdown Editor（VSCode打造好用的Markdown编辑器）</title>
-    <link href="https://blog.ant-abel.com/2018/07/30/vsocde-md/"/>
-    <id>https://blog.ant-abel.com/2018/07/30/vsocde-md/</id>
-    <published>2018-07-30T10:45:44.000Z</published>
-    <updated>2018-08-02T01:53:06.307Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;打造足够好用的 Markdown 编辑器，VSCode 的易用性就不用说了，再加上好用的 Extensions 插件，简直完美。&lt;/p&gt;
-&lt;h2 id=&quot;VSCode&quot;&gt;&lt;a href=&quot;#VSCode&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
-    
-    
-      <category term="guide" scheme="https://blog.ant-abel.com/tags/guide/"/>
-    
-      <category term="markdown" scheme="https://blog.ant-abel.com/tags/markdown/"/>
-    
-      <category term="vscode" scheme="https://blog.ant-abel.com/tags/vscode/"/>
     
   </entry>
   
