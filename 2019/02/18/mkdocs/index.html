@@ -113,7 +113,7 @@
 <meta property="og:site_name" content="Abel&#39;s Blog">
 <meta property="og:description" content="GeneralProject documentation with Markdown. MkDocs is a fast, simple and downright gorgeous static site generator that’s geared towards building project documentation. Documentation source files are w">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-01T03:27:58.156Z">
+<meta property="og:updated_time" content="2019-03-13T05:10:24.398Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MkDocs">
 <meta name="twitter:description" content="GeneralProject documentation with Markdown. MkDocs is a fast, simple and downright gorgeous static site generator that’s geared towards building project documentation. Documentation source files are w">
@@ -524,7 +524,8 @@
 <li><p>Any changes to repeat step 4 and 5.</p>
 </li>
 <li><p>VSCode settings:<br>add <code>.vscode/settings.json</code></p>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"pasteImage.path"</span>: <span class="string">"$&#123;projectRoot&#125;/docs/img"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"pasteImage.path"</span>: <span class="string">"$&#123;projectRoot&#125;/docs/img"</span>,</span><br><span class="line">  <span class="attr">"[markdown]"</span>: &#123;</span><br><span class="line">    <span class="attr">"editor.tabSize"</span>: <span class="number">4</span>,</span><br><span class="line">    <span class="attr">"editor.detectIndentation"</span>: <span class="literal">false</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">"markdown.extension.list.indentationSize"</span>: <span class="string">"inherit"</span>,</span><br><span class="line">  <span class="attr">"markdownlint.config"</span>: &#123;</span><br><span class="line">    <span class="attr">"MD007"</span>: &#123;</span><br><span class="line">      <span class="attr">"indent"</span>: <span class="number">4</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>To fix Python-Markdown issue <a href="https://github.com/mkdocs/mkdocs/issues/545" target="_blank" rel="noopener">Incorrect rendering of nested lists</a>, you have to set tab size is 4.</p>
 </li>
 </ol>
 <h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul>

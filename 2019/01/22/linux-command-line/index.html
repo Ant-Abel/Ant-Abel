@@ -113,7 +113,7 @@
 <meta property="og:site_name" content="Abel&#39;s Blog">
 <meta property="og:description" content="man: 查看命令说明 export: 显示所有的环境变量 echo $VARIABLE_NAME 获取某个变量的详细信息   echo: echo Hello World or echo -ne &amp;quot;Hello\nWorld\n&amp;quot; echo $SHELL   whereis 系统自动构建的数据库来搜索可执行文件，源文件和手册页面。 which 它在环境变量 PATH 指定的目">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-23T06:59:48.949Z">
+<meta property="og:updated_time" content="2019-03-12T08:03:15.052Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux Command Line">
 <meta name="twitter:description" content="man: 查看命令说明 export: 显示所有的环境变量 echo $VARIABLE_NAME 获取某个变量的详细信息   echo: echo Hello World or echo -ne &amp;quot;Hello\nWorld\n&amp;quot; echo $SHELL   whereis 系统自动构建的数据库来搜索可执行文件，源文件和手册页面。 which 它在环境变量 PATH 指定的目">
@@ -480,7 +480,8 @@
 </ul>
 </li>
 <li><code>ps</code>: process status. <code>ps aux</code></li>
-<li>wget:<br>wget 是 linux 上的命令行的下载工具。这是一个 GPL 许可证下的自由软件。wget 支持 HTTP 和 FTP 协议，支持代理服务器和断点续传功能，能够自动递归远程主机的目录，找到合乎条件的文件并将其下载到本地硬盘上；如果必要，wget 将恰当地转换页面中的超级连接以在本地生成可浏览的镜像。由于没有交互式界面，wget 可在后台运行，截获并忽略 HANGUP 信号，因此在用户推出登录以后，仍可继续运行。通常，wget 用于成批量地下载 Internet 网站上的文件，或制作远程网站的镜像。<ul>
+<li><p>wget:<br>wget 是 linux 上的命令行的下载工具。这是一个 GPL 许可证下的自由软件。wget 支持 HTTP 和 FTP 协议，支持代理服务器和断点续传功能，能够自动递归远程主机的目录，找到合乎条件的文件并将其下载到本地硬盘上；如果必要，wget 将恰当地转换页面中的超级连接以在本地生成可浏览的镜像。由于没有交互式界面，wget 可在后台运行，截获并忽略 HANGUP 信号，因此在用户推出登录以后，仍可继续运行。通常，wget 用于成批量地下载 Internet 网站上的文件，或制作远程网站的镜像。</p>
+<ul>
 <li>install: <code>brew install wget</code> , about <a href="/2019/01/22/mac-homebrew/" title="Homebrew">Homebrew</a></li>
 <li><code>wget https://github.wdf.sap.corp/Entitlement/ems-ui-app-entl-mgmt/blob/master/webapp/Component.js</code></li>
 <li><code>wget -d http://192.168.1.168</code> 下载 192.168.1.168 首页并且显示下载信息</li>
@@ -489,6 +490,9 @@
 <li><code>wget -c http://example.com/really-big-file.iso</code> 断点续传</li>
 <li><code>wget -b</code> 后台下载</li>
 </ul>
+</li>
+<li><p>IP and Mac</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">which ifconfig</span><br><span class="line">/sbin/ifconfig</span><br><span class="line"></span><br><span class="line">ifconfig | grep 192.168</span><br><span class="line"></span><br><span class="line">ifconfig en0 | grep inet | grep -v inet6 | cut -d ' ' -f2</span><br><span class="line">10.130.227.38</span><br><span class="line"></span><br><span class="line">host 10.130.227.38</span><br><span class="line">38.227.130.10.in-addr.arpa domain name pointer C02VR4LUHTD8.dhcp.ctul.sap.corp.</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
