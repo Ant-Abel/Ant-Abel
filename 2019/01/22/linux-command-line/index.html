@@ -113,7 +113,7 @@
 <meta property="og:site_name" content="Abel&#39;s Blog">
 <meta property="og:description" content="man: 查看命令说明 export: 显示所有的环境变量 echo $VARIABLE_NAME 获取某个变量的详细信息   echo: echo Hello World or echo -ne &amp;quot;Hello\nWorld\n&amp;quot; echo $SHELL   whereis 系统自动构建的数据库来搜索可执行文件，源文件和手册页面。 which 它在环境变量 PATH 指定的目">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-12T08:03:15.052Z">
+<meta property="og:updated_time" content="2019-03-28T06:38:49.573Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux Command Line">
 <meta name="twitter:description" content="man: 查看命令说明 export: 显示所有的环境变量 echo $VARIABLE_NAME 获取某个变量的详细信息   echo: echo Hello World or echo -ne &amp;quot;Hello\nWorld\n&amp;quot; echo $SHELL   whereis 系统自动构建的数据库来搜索可执行文件，源文件和手册页面。 which 它在环境变量 PATH 指定的目">
@@ -494,9 +494,15 @@
 <li><p>IP and Mac</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">which ifconfig</span><br><span class="line">/sbin/ifconfig</span><br><span class="line"></span><br><span class="line">ifconfig | grep 192.168</span><br><span class="line"></span><br><span class="line">ifconfig en0 | grep inet | grep -v inet6 | cut -d ' ' -f2</span><br><span class="line">10.130.227.38</span><br><span class="line"></span><br><span class="line">host 10.130.227.38</span><br><span class="line">38.227.130.10.in-addr.arpa domain name pointer C02VR4LUHTD8.dhcp.ctul.sap.corp.</span><br></pre></td></tr></table></figure>
 </li>
+<li><p>Copy the contents of the file <code>id_rsa.pub</code> to the clipboard:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pbcopy &lt; ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
 <li><a href="https://www.cnblogs.com/savorboard/p/bash-guide.html" target="_blank" rel="noopener">10 分钟学会 Linux 常用 bash 命令</a></li>
+<li><a href="http://tldp.org/LDP/intro-linux/html/index.html" target="_blank" rel="noopener">Introduction to Linux</a></li>
+<li><a href="http://www.physics.louisville.edu/williger/Astronomybootcamp/Unix_tutorials/Tenminuteunix/tenminuteunix.pdf" target="_blank" rel="noopener">Learn Unix in 10 Minutes</a></li>
+<li><a href="https://www.linuxtrainingacademy.com/wp-content/uploads/2016/12/LinuxCommandLineCheatSheet.pdf" target="_blank" rel="noopener">Linux Commandline Cheat Sheet</a></li>
 </ul>
 
       
