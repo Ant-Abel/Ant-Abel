@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ant-abel.com/"/>
-  <updated>2019-02-22T12:37:34.262Z</updated>
+  <updated>2019-03-29T09:58:24.385Z</updated>
   <id>https://blog.ant-abel.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Run SAPUI5 SDK locally</title>
+    <link href="https://blog.ant-abel.com/2019/03/29/sapui5-local-run/"/>
+    <id>https://blog.ant-abel.com/2019/03/29/sapui5-local-run/</id>
+    <published>2019-03-29T09:16:24.000Z</published>
+    <updated>2019-03-29T09:58:24.385Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Network performance of loading SAPUI5 library from a far away data center is driving me crazy, CDN cannot be used in some scenarios. I
+        
+      
+    
+    </summary>
+    
+      <category term="技(Skill)" scheme="https://blog.ant-abel.com/categories/skill/"/>
+    
+    
+      <category term="sapui5" scheme="https://blog.ant-abel.com/tags/sapui5/"/>
+    
+  </entry>
   
   <entry>
     <title>Git Command</title>
@@ -595,34 +621,6 @@
       <category term="vscode" scheme="https://blog.ant-abel.com/tags/vscode/"/>
     
       <category term="sync" scheme="https://blog.ant-abel.com/tags/sync/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo引用站内文章</title>
-    <link href="https://blog.ant-abel.com/2018/07/31/hexo-tip-post-link/"/>
-    <id>https://blog.ant-abel.com/2018/07/31/hexo-tip-post-link/</id>
-    <published>2018-07-31T02:22:53.000Z</published>
-    <updated>2018-08-02T01:46:23.512Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-      <category term="术(Solution)" scheme="https://blog.ant-abel.com/categories/solution/"/>
-    
-    
-      <category term="hexo" scheme="https://blog.ant-abel.com/tags/hexo/"/>
-    
-      <category term="tips" scheme="https://blog.ant-abel.com/tags/tips/"/>
     
   </entry>
   
