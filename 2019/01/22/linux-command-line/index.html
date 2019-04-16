@@ -105,18 +105,18 @@
 
 
 
-<meta name="description" content="man: 查看命令说明 export: 显示所有的环境变量 echo $VARIABLE_NAME 获取某个变量的详细信息   echo: echo Hello World or echo -ne &amp;quot;Hello\nWorld\n&amp;quot; echo $SHELL   whereis 系统自动构建的数据库来搜索可执行文件，源文件和手册页面。 which 它在环境变量 PATH 指定的目">
+<meta name="description" content="man: 查看命令说明 export: 显示所有的环境变量 echo $VARIABLE_NAME 获取某个变量的详细信息 echo $HOME, /Users/&amp;lt;your-username&amp;gt; printenv, 打印环境变量   echo: echo Hello World or echo -ne &amp;quot;Hello\nWorld\n&amp;quot; echo $SHELL   w">
 <meta name="keywords" content="linux,command">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux Command Line">
 <meta property="og:url" content="https://blog.ant-abel.com/2019/01/22/linux-command-line/index.html">
 <meta property="og:site_name" content="Abel&#39;s Blog">
-<meta property="og:description" content="man: 查看命令说明 export: 显示所有的环境变量 echo $VARIABLE_NAME 获取某个变量的详细信息   echo: echo Hello World or echo -ne &amp;quot;Hello\nWorld\n&amp;quot; echo $SHELL   whereis 系统自动构建的数据库来搜索可执行文件，源文件和手册页面。 which 它在环境变量 PATH 指定的目">
+<meta property="og:description" content="man: 查看命令说明 export: 显示所有的环境变量 echo $VARIABLE_NAME 获取某个变量的详细信息 echo $HOME, /Users/&amp;lt;your-username&amp;gt; printenv, 打印环境变量   echo: echo Hello World or echo -ne &amp;quot;Hello\nWorld\n&amp;quot; echo $SHELL   w">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-28T06:38:49.573Z">
+<meta property="og:updated_time" content="2019-04-16T07:08:49.763Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux Command Line">
-<meta name="twitter:description" content="man: 查看命令说明 export: 显示所有的环境变量 echo $VARIABLE_NAME 获取某个变量的详细信息   echo: echo Hello World or echo -ne &amp;quot;Hello\nWorld\n&amp;quot; echo $SHELL   whereis 系统自动构建的数据库来搜索可执行文件，源文件和手册页面。 which 它在环境变量 PATH 指定的目">
+<meta name="twitter:description" content="man: 查看命令说明 export: 显示所有的环境变量 echo $VARIABLE_NAME 获取某个变量的详细信息 echo $HOME, /Users/&amp;lt;your-username&amp;gt; printenv, 打印环境变量   echo: echo Hello World or echo -ne &amp;quot;Hello\nWorld\n&amp;quot; echo $SHELL   w">
 
 
 
@@ -455,6 +455,8 @@
 <li><code>man</code>: 查看命令说明</li>
 <li>export: 显示所有的环境变量<ul>
 <li><code>echo $VARIABLE_NAME</code> 获取某个变量的详细信息</li>
+<li><code>echo $HOME</code>, <code>/Users/&lt;your-username&gt;</code></li>
+<li><code>printenv</code>, 打印环境变量</li>
 </ul>
 </li>
 <li><code>echo</code>:<ul>
@@ -497,6 +499,10 @@
 <li><p>Copy the contents of the file <code>id_rsa.pub</code> to the clipboard:</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pbcopy &lt; ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
 </li>
+<li><p><code>cat /proc/version</code> kernel version</p>
+</li>
+<li><code>cat /proc/meminfo</code> free and used memory in the system</li>
+<li><code>cat /proc/cpuinfo</code> cpu/hardware information</li>
 </ul>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
 <li><a href="https://www.cnblogs.com/savorboard/p/bash-guide.html" target="_blank" rel="noopener">10 分钟学会 Linux 常用 bash 命令</a></li>

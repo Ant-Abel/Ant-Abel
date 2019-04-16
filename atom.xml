@@ -194,7 +194,7 @@
     <link href="https://blog.ant-abel.com/2019/01/22/linux-command-line/"/>
     <id>https://blog.ant-abel.com/2019/01/22/linux-command-line/</id>
     <published>2019-01-22T09:48:41.000Z</published>
-    <updated>2019-03-28T06:38:49.573Z</updated>
+    <updated>2019-04-16T07:08:49.763Z</updated>
     
     <summary type="html">
     
@@ -205,7 +205,8 @@
           &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;man&lt;/code&gt;: 查看命令说明&lt;/li&gt;
 &lt;li&gt;export: 显示所有的环境变量&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;echo $VARIABLE_NAME&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;echo $VARIABLE_NAME&lt;/code&gt; 获取某个变量的详细信息&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;echo
         
       
     
@@ -397,7 +398,7 @@
     <link href="https://blog.ant-abel.com/2018/09/21/docker/"/>
     <id>https://blog.ant-abel.com/2018/09/21/docker/</id>
     <published>2018-09-21T01:25:32.000Z</published>
-    <updated>2019-04-02T17:23:44.853Z</updated>
+    <updated>2019-04-09T09:52:31.409Z</updated>
     
     <summary type="html">
     

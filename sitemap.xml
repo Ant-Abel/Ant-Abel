@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ant-abel.com/2019/01/22/linux-command-line/</loc>
+    
+    <lastmod>2019-04-16T07:08:49.763Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ant-abel.com/2018/09/21/docker/</loc>
     
-    <lastmod>2019-04-02T17:23:44.853Z</lastmod>
+    <lastmod>2019-04-09T09:52:31.409Z</lastmod>
     
   </url>
   
@@ -12,13 +19,6 @@
     <loc>https://blog.ant-abel.com/2019/03/29/sapui5-local-run/</loc>
     
     <lastmod>2019-03-29T09:58:24.385Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ant-abel.com/2019/01/22/linux-command-line/</loc>
-    
-    <lastmod>2019-03-28T06:38:49.573Z</lastmod>
     
   </url>
   
