@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.ant-abel.com/2019/01/22/linux-command-line/</loc>
+    <loc>https://blog.ant-abel.com/2019/05/10/code-formatter/</loc>
     
-    <lastmod>2019-04-16T07:08:49.763Z</lastmod>
+    <lastmod>2019-05-10T08:39:45.341Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.ant-abel.com/2018/09/21/docker/</loc>
     
-    <lastmod>2019-04-09T09:52:31.409Z</lastmod>
+    <lastmod>2019-04-16T08:07:13.093Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ant-abel.com/2019/01/22/linux-command-line/</loc>
+    
+    <lastmod>2019-04-16T07:08:49.763Z</lastmod>
     
   </url>
   
