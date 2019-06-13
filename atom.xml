@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ant-abel.com/"/>
-  <updated>2019-05-10T08:39:45.341Z</updated>
+  <updated>2019-06-12T00:18:38.436Z</updated>
   <id>https://blog.ant-abel.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git</title>
+    <link href="https://blog.ant-abel.com/2019/06/10/git/"/>
+    <id>https://blog.ant-abel.com/2019/06/10/git/</id>
+    <published>2019-06-10T14:38:43.000Z</published>
+    <updated>2019-06-12T00:18:38.436Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;毋庸置疑，Git 是目前最流行、最好用的版本控制系统，在它的基础上，催生出了GitHub和GitLab两个当前最流行的代码托管平台。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../uploads/2019-06-12-07-57-14.png&quot; alt=&quot;git
+        
+      
+    
+    </summary>
+    
+      <category term="技(Skill)" scheme="https://blog.ant-abel.com/categories/skill/"/>
+    
+    
+      <category term="git" scheme="https://blog.ant-abel.com/tags/git/"/>
+    
+      <category term="scm" scheme="https://blog.ant-abel.com/tags/scm/"/>
+    
+  </entry>
   
   <entry>
     <title>Code Formatter</title>
@@ -224,7 +253,7 @@
     <link href="https://blog.ant-abel.com/2019/01/22/linux-command-line/"/>
     <id>https://blog.ant-abel.com/2019/01/22/linux-command-line/</id>
     <published>2019-01-22T09:48:41.000Z</published>
-    <updated>2019-04-16T07:08:49.763Z</updated>
+    <updated>2019-06-10T14:46:21.017Z</updated>
     
     <summary type="html">
     
@@ -256,7 +285,7 @@
     <link href="https://blog.ant-abel.com/2019/01/22/mac-zsh/"/>
     <id>https://blog.ant-abel.com/2019/01/22/mac-zsh/</id>
     <published>2019-01-22T08:16:04.000Z</published>
-    <updated>2019-01-22T11:25:30.861Z</updated>
+    <updated>2019-05-30T02:47:14.166Z</updated>
     
     <summary type="html">
     
@@ -264,9 +293,11 @@
       
         
         
-          &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#zsh&quot;&gt;Zsh&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE&quot;&gt;安装配置&lt;/a&gt;&lt;ul&gt;
+          &lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;#zsh&quot;&gt;Zsh&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;#%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%B7%B1functions&quot;&gt;添加自己Functions&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a
         
       
@@ -428,7 +459,7 @@
     <link href="https://blog.ant-abel.com/2018/09/21/docker/"/>
     <id>https://blog.ant-abel.com/2018/09/21/docker/</id>
     <published>2018-09-21T01:25:32.000Z</published>
-    <updated>2019-04-16T08:07:13.093Z</updated>
+    <updated>2019-06-13T10:16:40.620Z</updated>
     
     <summary type="html">
     
@@ -593,35 +624,6 @@
       <category term="vscode" scheme="https://blog.ant-abel.com/tags/vscode/"/>
     
       <category term="shortcut" scheme="https://blog.ant-abel.com/tags/shortcut/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown Cookbook（Markdwon简明语法手册）</title>
-    <link href="https://blog.ant-abel.com/2018/08/01/markdown-cookbook/"/>
-    <id>https://blog.ant-abel.com/2018/08/01/markdown-cookbook/</id>
-    <published>2018-08-01T06:07:46.000Z</published>
-    <updated>2018-08-02T01:51:58.470Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;Markdown&quot;&gt;&lt;a href=&quot;#Markdown&quot; class=&quot;headerlink&quot; title=&quot;Markdown?&quot;&gt;&lt;/a&gt;Markdown?&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;Markdown is a text-to-HTML
-        
-      
-    
-    </summary>
-    
-      <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
-    
-    
-      <category term="cookbook" scheme="https://blog.ant-abel.com/tags/cookbook/"/>
-    
-      <category term="markdown" scheme="https://blog.ant-abel.com/tags/markdown/"/>
     
   </entry>
   
