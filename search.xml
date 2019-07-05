@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Git]]></title>
     <url>%2F2019%2F06%2F10%2Fgit%2F</url>
-    <content type="text"><![CDATA[毋庸置疑，Git 是目前最流行、最好用的版本控制系统，在它的基础上，催生出了GitHub和GitLab两个当前最流行的代码托管平台。 配置123456git config —-global user.name ‘your_name’git config —-global user.email ‘your_email@domain.com’git config --local --listgit config --global --listgit config --system --list 创建Git Repo 把已有代码纳入到git管理. git init 123456789ls -algit initgit add .git add -u 更新内容替换暂存区git rm filenamegit statusgit commit -m ‘message’git log 新建项目直接用git管理. git init your_project git命令上面的四条命令在工作目录、暂存目录(也叫做索引)和仓库之间复制文件。 git add files 把当前文件放入暂存区域。 git commit 给暂存区域生成快照并提交。 git reset – files 用来撤销最后一次git add files，你也可以用git reset 撤销所有暂存区域文件。 git checkout – files 把文件从暂存区域复制到工作目录，用来丢弃本地修改。你可以用 git reset -p, git checkout -p, or git add -p进入交互模式。 git commit -a 相当于运行 git add 把所有当前目录下的文件加入暂存区域再运行。git commit. git commit files 进行一次包含最后一次提交加上工作目录中文件快照的提交。并且文件被添加到暂存区域。 git checkout HEAD – files 回滚到复制最后一次提交。 git initgit add/rm123456git addfind .git/objects -type f# 删除文件git rm &lt;file_name&gt; git statusgit commit 123456# 暂存区内容做提交git commit -m'commit msg'# 工作区内容直接提交不经过暂存区git commit -am'commit msg'git commit -m 'messge' --author="name&lt;email&gt;"指定commit的作者的名字和邮箱` git mv文件重命名 123456git mv readme readme.md## 等同于mv readme readme.mdgit add readme.mdgit rm readme git log git log –all 查看所有分支的历史 git log –all –graph 查看图形化的 log 地址 git log –oneline 查看单行的简洁历史。 git log –oneline -n4 查看最近的四条简洁历史。 git log –oneline –all -n4 –graph 查看所有分支最近 4 条单行的图形化历史。 git help –web log 跳转到git log 的帮助文档网页 Notes: enter q to exit. git config --system --list 12345alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'alias.ll=log --stat --abbrev-commitalias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit --date=relativealias.llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an &lt;%ae&gt;%Creset %C(bold green)%cr (%ci)' --abbrev-commitalias.d=diff 123git lggit llgit llg git自带了图形界面工具gitk. 在repo folder下面运行gitk。效果如下： 12gitkgitk --all git checkout 123# 废弃工作区变更git checkout -- [&lt;file_name&gt;] git branch12345# 查看所有分支git branch -av# 删除分支git branch -d &lt;branch_name&gt;git branch -D &lt;branch_name&gt; git cat-file12345find .git/objects -type f# show contentgit cat-file -p uuid# show typegit cat-file -t uuid git rebase12345# change old commit messagegit rebase -i &lt;parent-commit-id&gt; # with r# combine commits 合并commitsgit rebase -i &lt;parent-commit-id&gt; # with s git diff 1234567891011# 比较工作区和暂存区区别。git diffgit diff -- [&lt;file_name&gt;]#暂存区和HEAD进行比较git diff --cached# 比较某文件两次不同提交的差异git diff &lt;commit_id1&gt; &lt;commit_id2&gt; -- &lt;file_name&gt;# 比较某文件两个不同分支的差异git diff &lt;branch_1&gt; &lt;branch_2&gt; -- &lt;file_name&gt; git resetreset命令把当前分支指向另一个位置，并且有选择的变动工作目录和索引。也用来在从历史仓库中复制文件到索引，而不动工作目录。 如果不给选项，那么当前分支指向到那个提交。 如果用–hard选项，那么工作目录也更新， 如果用–soft选项，那么都不变。 如果没有给出提交点的版本号，那么默认用HEAD。这样，分支指向不变，但是索引会回滚到最后一次提交，如果用–hard选项，工作目录也同样。 123# 取消暂存区所有内容，跟HEAD保持一致git reset HEADgit reset --hard &lt;commit_id&gt; 如果给了文件名(或者 -p选项), 那么工作效果和带文件名的checkout差不多，除了索引被更新。 git cherry-pickcherry-pick命令”复制”一个提交节点并在当前分支做一次完全一样的新提交。 Furhter Making gitk look sexy on Mac OS X 图解Git]]></content>
+    <content type="text"><![CDATA[毋庸置疑，Git 是目前最流行、最好用的版本控制系统，在它的基础上，催生出了 GitHub 和 GitLab 两个当前最流行的代码托管平台。 配置123456git config —-global user.name ‘your_name’git config —-global user.email ‘your_email@domain.com’git config --local --listgit config --global --listgit config --system --list 创建 Git Repo 把已有代码纳入到 git 管理. git init 123456789ls -algit initgit add .git add -u 更新内容替换暂存区git rm filenamegit statusgit commit -m ‘message’git log 新建项目直接用 git 管理. git init your_project git 命令上面的四条命令在工作目录、暂存目录(也叫做索引)和仓库之间复制文件。 git add files 把当前文件放入暂存区域。 git commit 给暂存区域生成快照并提交。 git reset – files 用来撤销最后一次 git add files，你也可以用 git reset 撤销所有暂存区域文件。 git checkout – files 把文件从暂存区域复制到工作目录，用来丢弃本地修改。你可以用 git reset -p, git checkout -p, or git add -p进入交互模式。 git commit -a 相当于运行 git add 把所有当前目录下的文件加入暂存区域再运行。git commit. git commit files 进行一次包含最后一次提交加上工作目录中文件快照的提交。并且文件被添加到暂存区域。 git checkout HEAD – files 回滚到复制最后一次提交。 git initgit add/rm123456git addfind .git/objects -type f# 删除文件git rm &lt;file_name&gt; git statusgit commit 12345# 暂存区内容做提交git commit -m'commit msg'# 工作区内容直接提交不经过暂存区git commit -am'commit msg'git commit -m 'messge' --author="name&lt;email&gt;"指定commit的作者的名字和邮箱 git mv文件重命名 123456git mv readme readme.md## 等同于mv readme readme.mdgit add readme.mdgit rm readme git log git log –all 查看所有分支的历史 git log –all –graph 查看图形化的 log 地址 git log –oneline 查看单行的简洁历史。 git log –oneline -n4 查看最近的四条简洁历史。 git log –oneline –all -n4 –graph 查看所有分支最近 4 条单行的图形化历史。 git help –web log 跳转到 git log 的帮助文档网页 Notes: enter q to exit. git config --system --list 12345alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'alias.ll=log --stat --abbrev-commitalias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit --date=relativealias.llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an &lt;%ae&gt;%Creset %C(bold green)%cr (%ci)' --abbrev-commitalias.d=diff 123git lggit llgit llg git 自带了图形界面工具gitk. 在 repo folder 下面运行gitk。效果如下： 12gitkgitk --all git checkout 123# 废弃工作区变更git checkout -- [&lt;file_name&gt;] git branch12345# 查看所有分支git branch -av# 删除分支git branch -d &lt;branch_name&gt;git branch -D &lt;branch_name&gt; git cat-file12345find .git/objects -type f# show contentgit cat-file -p uuid# show typegit cat-file -t uuid git rebase12345# change old commit messagegit rebase -i &lt;parent-commit-id&gt; # with r# combine commits 合并commitsgit rebase -i &lt;parent-commit-id&gt; # with s git diff 1234567891011# 比较工作区和暂存区区别。git diffgit diff -- [&lt;file_name&gt;]#暂存区和HEAD进行比较git diff --cached# 比较某文件两次不同提交的差异git diff &lt;commit_id1&gt; &lt;commit_id2&gt; -- &lt;file_name&gt;# 比较某文件两个不同分支的差异git diff &lt;branch_1&gt; &lt;branch_2&gt; -- &lt;file_name&gt; git resetreset 命令把当前分支指向另一个位置，并且有选择的变动工作目录和索引。也用来在从历史仓库中复制文件到索引，而不动工作目录。 如果不给选项，那么当前分支指向到那个提交。 如果用–hard 选项，那么工作目录也更新， 如果用–soft 选项，那么都不变。 如果没有给出提交点的版本号，那么默认用 HEAD。这样，分支指向不变，但是索引会回滚到最后一次提交，如果用–hard 选项，工作目录也同样。 123# 取消暂存区所有内容，跟HEAD保持一致git reset HEADgit reset --hard &lt;commit_id&gt; 如果给了文件名(或者 -p 选项), 那么工作效果和带文件名的 checkout 差不多，除了索引被更新。 git cherry-pickcherry-pick 命令”复制”一个提交节点并在当前分支做一次完全一样的新提交。 Furhter Making gitk look sexy on Mac OS X 图解 Git]]></content>
       <categories>
         <category>技(Skill)</category>
       </categories>
@@ -118,8 +118,8 @@
         <category>器(Tool)</category>
       </categories>
       <tags>
-        <tag>terminal</tag>
         <tag>shell</tag>
+        <tag>terminal</tag>
         <tag>bash</tag>
         <tag>iterm2</tag>
         <tag>Zsh</tag>
@@ -135,8 +135,8 @@
         <category>器(Tool)</category>
       </categories>
       <tags>
-        <tag>terminal</tag>
         <tag>shell</tag>
+        <tag>terminal</tag>
         <tag>bash</tag>
         <tag>iterm2</tag>
       </tags>
@@ -212,8 +212,8 @@
         <category>技(Skill)</category>
       </categories>
       <tags>
-        <tag>shell</tag>
         <tag>nodejs</tag>
+        <tag>shell</tag>
       </tags>
   </entry>
   <entry>

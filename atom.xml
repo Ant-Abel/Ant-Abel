@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ant-abel.com/"/>
-  <updated>2019-06-12T00:18:38.436Z</updated>
+  <updated>2019-07-05T03:03:10.717Z</updated>
   <id>https://blog.ant-abel.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.ant-abel.com/2019/06/10/git/"/>
     <id>https://blog.ant-abel.com/2019/06/10/git/</id>
     <published>2019-06-10T14:38:43.000Z</published>
-    <updated>2019-06-12T00:18:38.436Z</updated>
+    <updated>2019-07-05T03:03:10.717Z</updated>
     
     <summary type="html">
     
@@ -29,8 +29,8 @@
       
         
         
-          &lt;p&gt;毋庸置疑，Git 是目前最流行、最好用的版本控制系统，在它的基础上，催生出了GitHub和GitLab两个当前最流行的代码托管平台。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../uploads/2019-06-12-07-57-14.png&quot; alt=&quot;git
+          &lt;p&gt;毋庸置疑，Git 是目前最流行、最好用的版本控制系统，在它的基础上，催生出了 GitHub 和 GitLab 两个当前最流行的代码托管平台。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/uploads/2019-06-12-07-57-14.png&quot; alt=&quot;git
         
       
     
@@ -307,9 +307,9 @@
       <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
     
     
-      <category term="terminal" scheme="https://blog.ant-abel.com/tags/terminal/"/>
-    
       <category term="shell" scheme="https://blog.ant-abel.com/tags/shell/"/>
+    
+      <category term="terminal" scheme="https://blog.ant-abel.com/tags/terminal/"/>
     
       <category term="bash" scheme="https://blog.ant-abel.com/tags/bash/"/>
     
@@ -347,9 +347,9 @@
       <category term="器(Tool)" scheme="https://blog.ant-abel.com/categories/tool/"/>
     
     
-      <category term="terminal" scheme="https://blog.ant-abel.com/tags/terminal/"/>
-    
       <category term="shell" scheme="https://blog.ant-abel.com/tags/shell/"/>
+    
+      <category term="terminal" scheme="https://blog.ant-abel.com/tags/terminal/"/>
     
       <category term="bash" scheme="https://blog.ant-abel.com/tags/bash/"/>
     
@@ -533,9 +533,9 @@
       <category term="技(Skill)" scheme="https://blog.ant-abel.com/categories/skill/"/>
     
     
-      <category term="shell" scheme="https://blog.ant-abel.com/tags/shell/"/>
-    
       <category term="nodejs" scheme="https://blog.ant-abel.com/tags/nodejs/"/>
+    
+      <category term="shell" scheme="https://blog.ant-abel.com/tags/shell/"/>
     
   </entry>
   
